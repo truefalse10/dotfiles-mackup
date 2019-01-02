@@ -1,0 +1,37 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "shift+space",
+    "command": "editor.emmet.action.expandAbbreviation",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "shift+cmd+b",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "cmd+k cmd+right",
+    "command": "-workbench.action.focusNextGroup"
+  },
+  {
+    "key": "shift+cmd+g",
+    "command": "workbench.view.scm"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-workbench.view.scm"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  // {
+  //   "key": "cmd+d",
+  //   "command": "-editor.action.addSelectionToNextFindMatch",
+  //   "when": "editorFocus"
+  // }
+]

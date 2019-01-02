@@ -1,0 +1,117 @@
+{
+  // Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+  // "editor.fontFamily": "Droid Sans Mono Slashed for Powerline",
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  // vim settings
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {
+      "before": ["d"], // put d into black hole register
+      "after": ["\"", "_", "d"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.cmdLineInitialColon": true,
+  "vim.easymotionMarkerBackgroundColor": "rgba(255,0,0,0.5)",
+  "vim.easymotionMarkerFontFamily": "Courier",
+  "vim.foldfix": true,
+  // end vim settings
+  "editor.renderWhitespace": "all",
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  // "editor.detectIndentation": true,
+  "editor.insertSpaces": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "node_modules": false,
+    "dist": false,
+    "test/unit/coverage": true
+  },
+  "emmet.syntaxProfiles": {
+    "vue-html": "html"
+  },
+  "emmet.includeLanguages": {
+    "vue-html": "html"
+  },
+  "eslint.autoFixOnSave": true,
+  // "[markdown]": {
+  //   "editor.formatOnSave": false
+  // },
+  "[json]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "vetur.validation.template": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "explorer.confirmDelete": false,
+  "git.autofetch": true,
+  "zenMode.hideTabs": false,
+  "zenMode.hideStatusBar": false,
+  "editor.multiCursorModifier": "alt",
+  "todohighlight.isEnable": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "sync.gist": "27bc5d3968a9d60aa49408408f3e811d",
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastUpload": "",
+  "sync.lastDownload": "2018-08-08T15:01:17.502Z",
+  "sync.forceDownload": false,
+  "explorer.confirmDragAndDrop": false,
+  "breadcrumbs.enabled": true,
+  "workbench.statusBar.feedback.visible": false,
+  "gitblame.statusBarMessageFormat": "",
+  "vim.statusBarColorControl": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f"
+  },
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatter.html": "none",
+  "vetur.format.defaultFormatter.css": "none",
+  "vetur.format.defaultFormatter.postcss": "none",
+  "vetur.format.defaultFormatter.scss": "none",
+  "vetur.format.defaultFormatter.less": "none",
+  "vetur.format.defaultFormatter.stylus": "none",
+  "vetur.format.defaultFormatter.js": "none",
+  "vetur.format.defaultFormatter.ts": "none",
+  "python.pythonPath": "/usr/local/bin/python3"
+}
